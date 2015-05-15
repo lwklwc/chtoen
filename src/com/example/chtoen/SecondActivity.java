@@ -103,8 +103,8 @@ public class SecondActivity extends Activity implements OnItemClickListener, OnI
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
-//		Toast.makeText(this, provinceMap.get(provinceArray[position])+"",
-//				Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, provinceMap.get(provinceArray[position])+"",
+				Toast.LENGTH_SHORT).show();
 		tts.speak(provinceMap.get(provinceArray[position]).toString(),TextToSpeech.QUEUE_FLUSH, null);
 //		String url = getMP3Url(provinceMap.get(provinceArray[position]));
 //		Log.e("url", " = " +url);
