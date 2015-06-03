@@ -35,6 +35,7 @@ public class MainActivity extends ActionBarActivity implements OnItemClickListen
 		initUI();
     }
 
+    //test 0603
 	private void initUI() {
 		mListView = (ListView) findViewById(R.id.classify_lv);
 	    mAdapter = new MyAdapter();
